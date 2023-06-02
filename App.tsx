@@ -1,11 +1,11 @@
 import React, {useState, useEffect, useRef} from 'react';
 import Test from './test';
-import IfPrac from './IfPrac';
-import IfPrac2 from './IfPrac2';
-import IfPrac3 from './IfPrac3';
-import IfPrac4 from './IfPrac4';
-import IfPrac5 from './IfPrac5';
-import IfPrac6 from './IfPrac6';
+import IfPrac from './ifPrac/IfPrac';
+import IfPrac2 from './ifPrac/IfPrac2';
+import IfPrac3 from './ifPrac/IfPrac3';
+import IfPrac4 from './ifPrac/IfPrac4';
+import IfPrac5 from './ifPrac/IfPrac5';
+import IfPrac6 from './ifPrac/IfPrac6';
 
 const component:React.FC = ()=>{
   const [count, setCount] = useState(0);
