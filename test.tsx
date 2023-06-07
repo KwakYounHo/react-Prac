@@ -13,3 +13,8 @@ const component:React.FC<Props> = props => {
 }
 
 export default component;
+
+interface id {
+  name: string,
+  age: number
+}
